@@ -1,0 +1,1 @@
+# ovirt-node-bootstrap
