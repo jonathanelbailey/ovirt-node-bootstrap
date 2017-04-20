@@ -6,9 +6,9 @@ pipeline {
     
   }
   stages {
-    stage('error') {
+    stage('Test Ovirt-Node Status') {
       steps {
-        echo 'testing'
+        sh '#! /bin/bash'
       }
     }
   }
