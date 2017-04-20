@@ -17,7 +17,7 @@ pipeline {
     }
     stage('Build Ovirt Node Server') {
       steps {
-        sh '''#! /usr/bin/python
+        sh '''#! /usr/bin/env python
 
 # download git repo
 # download dependencies -- ilo python library
@@ -43,7 +43,7 @@ pipeline {
     }
     stage('Build MCIT Datacenter') {
       steps {
-        sh '''#! /usr/bin/python
+        sh '''#! /usr/bin/env python
 
 # download dependencies - ovirtsdk4
 # ensure storage domains are setup
